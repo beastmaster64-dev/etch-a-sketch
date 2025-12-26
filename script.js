@@ -8,7 +8,7 @@ function makeGrid(){
         for(let j=0; j<16; j++){
             const column = document.createElement("div");
             row.appendChild(column);
-            column.textContent = `${i},${j}`;
+            
         }
         containerDiv.appendChild(row)
     }
