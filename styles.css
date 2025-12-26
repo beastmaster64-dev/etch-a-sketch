@@ -10,6 +10,7 @@ h1{
 }
 
 #grid-container {
+  max-width: 960px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -21,6 +22,10 @@ h1{
   height: 50px;
   text-align: center;
   align-content: center;
-  border: 1px solid blue;
-  background-color: pink;
+  border: 1px solid darkblue;
+  background-color: white;
 }
+
+
+
+
